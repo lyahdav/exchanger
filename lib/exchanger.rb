@@ -6,8 +6,7 @@ require 'tzinfo'
 
 require "active_support/core_ext"
 require "nokogiri"
-require "httpclient"
-require "net/ntlm"
+require 'ntlm/http'
 
 require "exchanger/version"
 require "exchanger/config"
